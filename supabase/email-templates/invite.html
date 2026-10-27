@@ -1,0 +1,6 @@
+<!-- Supabase Dashboard → Authentication → Email Templates → "Invite user"
+     Subject: You have been invited to the Inked Whispers admin portal -->
+<h2>Welcome to Inked Whispers</h2>
+<p>You have been invited as an administrator. Choose your own password to finish setting up your account:</p>
+<p><a href="{{ .SiteURL }}/admin/auth/confirm?token_hash={{ .TokenHash }}&type=invite">Set my password</a></p>
+<p>This link works once and expires soon. If you were not expecting it, ignore this email.</p>

@@ -1,0 +1,24 @@
+{
+  "name": "inked-whispers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Inked Whispers \u2014 official website and administrative portal.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "admins:setup": "node --env-file=.env.local scripts/setup-admins.mjs"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.12.7",
+    "@supabase/supabase-js": "^2.117.2",
+    "lucide-react": "^1.50.0",
+    "next": "^16.3.8",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "server-only": "^0.0.1"
+  }
+}
